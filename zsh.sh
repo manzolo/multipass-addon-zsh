@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "installing zsh..."
+sudo apt -qqy update > /dev/null
 sudo apt -qqy install zsh > /dev/null
 sudo apt -qqy install powerline fonts-powerline > /dev/null
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
